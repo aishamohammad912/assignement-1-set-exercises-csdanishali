@@ -1,0 +1,32 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+  }
+  
+  .video-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  /* Adjust video width */
+    height: 100%; /* Adjust video height */
+    background-color: #fcf5f5; /* Background color behind the video */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    overflow: hidden; /* Ensures the video is contained within the wrapper */
+  }
+  
+  .video-player {
+    width: 50%;  /* Video takes up normal width of the wrapper */
+    height: 50%; /* Video takes up normal height of the wrapper */
+  }
+  

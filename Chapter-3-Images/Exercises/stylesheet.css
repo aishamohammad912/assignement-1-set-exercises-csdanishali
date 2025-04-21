@@ -1,0 +1,64 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url('sea-6159674_1280.jpg') no-repeat center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  color: #01040e;
+}
+
+/* Title styling */
+.main-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #08080a;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Gallery column layout */
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+
+/* Image item styling */
+.image-item {
+  text-align: center;
+}
+
+/* Image styling */
+.image-item img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+  filter: brightness(0.9) contrast(1.1) saturate(1.2);
+  transition: transform 0.3s ease;
+}
+
+.image-item img:hover {
+  transform: scale(1.03);
+}
+
+/* Caption styling */
+.image-item p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #f0f0f0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
